@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2221325046,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user need to click on add customer button",
+            "match": {
+              "location": "AddCustomerSteps.user_need_to_click_on_add_customer_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10135227786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeBackground()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "feild validation",
+        "description": "",
+        "id": "add-customer-validation;feild-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1311611197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2046513884,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user need to fill all the feilds",
+            "match": {
+              "location": "AddCustomerSteps.user_need_to_fill_all_the_feilds()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1770879406,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should click on submit button",
+            "match": {
+              "location": "AddCustomerSteps.user_should_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191565207,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be displayed customer id is generated",
+            "match": {
+              "location": "AddCustomerSteps.user_should_be_displayed_customer_id_is_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke1"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@karthi"
+          }
+        ]
+      }
+    ],
+    "name": "Add Customer validation",
+    "description": "",
+    "id": "add-customer-validation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@smoke1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
